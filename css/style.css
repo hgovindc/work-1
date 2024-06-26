@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color:blue;
+    color: white;
+}
+.left{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 0px 20px;
+    list-style: none;
+}
+.div{ 
+    height: 200%;
+    width: 100%;
+}
+.parent{
+    background-image: url(/css/img/kerala1.jpg));
+    height:100vh;
+    width: 100%;
+/* background-repeat: no-repeat; */
+background-position: center;
+/* object-fit: cover; */
+background-size: cover;
+background-attachment:scroll;
+min-height: 350vh;
+}
+.kerala{
+    width: 40%;
+    height: 50%;
+position: absolute;
+top: 10%;
+padding:50px 20px;
+right: 1%;
+}
+.hori{position: absolute;
+opacity:10px;
+/* height: 50px; */
+margin-right:auto;
+margin-left: auto;
+margin-top:700px;
+margin-bottom:100px;
+color: white;
+background-color: black;
+height: 10px;
+width: 100%;
+}
+
+.p1{ 
+    width: 30%;
+    height:75vh;
+        top: 85%;
+        right: 5%;
+        position: absolute;
+    
+}
+
+.p2{
+    width: 30%;
+    height: 75vh;
+    top: 85%;
+    left: 1%;
+    position: absolute;
+}.product{
+    top: 160%;
+    position: absolute;
+    color:white;
+    background-color: black;
+    padding: 0% 48%;
+    flex-wrap: wrap;
+}
+.mother{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    grid-template-rows: repeat(4,1fr);
+
+}
+
+.card{
+    position: absolute;
+top: 175%;
+    
+    
+    box-shadow: 20px 3px 50px black;
+    border-radius: 80px 0px 50px 0px;
+    width: 300px;
+    height: 450px;
+    margin: 60px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 60px;
+
+
+
+}
+
+.img{
+    width:100px;
+    height:150%;
+
+}
+img{
+    border-radius: 50px 0px 50px 0px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+.content{
+    padding: 40px 55px;
+    width: 70%;
+
+}
+
