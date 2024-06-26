@@ -25,7 +25,7 @@ li{
     width: 100%;
 }
 .parent{
-    background-image: url(/css/img/kerala1.jpg));
+    background-image: url(/css/img/kerala1.jpg);
     height:100vh;
     width: 100%;
 /* background-repeat: no-repeat; */
@@ -43,7 +43,7 @@ top: 10%;
 padding:50px 20px;
 right: 1%;
 }
-.hori{position: absolute;
+.hori{position: absolute; */
 opacity:10px;
 /* height: 50px; */
 margin-right:auto;
@@ -54,21 +54,21 @@ color: white;
 background-color: black;
 height: 10px;
 width: 100%;
-}
+} 
 
 .p1{ 
-    width: 30%;
-    height:75vh;
-        top: 85%;
+    width: 50vh;
+    height:65vh;
+        top:96%;
         right: 5%;
         position: absolute;
     
 }
 
 .p2{
-    width: 30%;
-    height: 75vh;
-    top: 85%;
+    width:50vh;
+    height:65vh ;
+    top: 96%;
     left: 1%;
     position: absolute;
 }.product{
